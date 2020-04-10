@@ -1,3 +1,3 @@
-# Generates a random quote said by Bane in The Dark Knight Rises.
+# Generates a Bane quote from The Dark Knight Rises
 
 ### Command: !bane
