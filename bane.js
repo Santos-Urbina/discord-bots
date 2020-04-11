@@ -19,4 +19,6 @@ client.on('message', (message) => {
     }
 });
 
-client.login(config.token);
+const token = process.env.BANE_TOKEN || config.token;
+
+client.login(token);
