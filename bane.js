@@ -1,5 +1,6 @@
 const discord = require('discord.js');
-const config = require('./config.json');
+//For running locally
+//const config = require('./config.json');
 const chalk = require('chalk');
 const quotes = require('./quotes.json');
 
@@ -19,6 +20,8 @@ client.on('message', (message) => {
     }
 });
 
-const token = process.env.BANE_TOKEN || config.token;
+const token = process.env.BANE_TOKEN;
+//For running locally
+//const token = config.token;
 
 client.login(token);
